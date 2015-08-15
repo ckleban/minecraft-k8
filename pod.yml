@@ -1,1 +1,20 @@
-#
+apiVersion: v1
+kind: Pod
+metadata:
+  name: minecraft-server
+  labels:
+    app: minecraft-server
+spec:
+  containers:
+  - name: minecraft-server
+    image: itzg/minecraft-server
+    env:
+    - name: OPS
+      value: madsurfer79
+    - name: EULA
+      value: "TRUE"
+    ports:
+    - containerPort: 25565
+
+      
+      
