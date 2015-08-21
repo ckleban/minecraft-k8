@@ -8,8 +8,6 @@ Create pod
 
 See it up and running:
 > kubectl get pods
-NAME                      READY     STATUS    RESTARTS   AGE
-minecraft-dfhse           1/1       Running   0          2h
 
 If you want this server to be reachable on the internet, you probably need to do some more things. If you are on a public cloud, like Centurylink, amazon or google, this is easy to do. Simply run:
 
